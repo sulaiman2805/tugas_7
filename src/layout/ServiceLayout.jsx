@@ -5,14 +5,14 @@ import GreyCardComponents from "../components/GreyCardComponent";
 function ServiceLayout() {
     const services = [
         'Search Engine Optimization',
-        'Pay-per-click',
-        'Title 3',
-        'Title 4',
-        'Title 5',
-        'Title 6',
+        'Pay-per-click advertising',
+        'Social Media Marketing',
+        'Email Marketing',
+        'Content Creation',
+        'Analytics and Tracking',
     ];
     return(
-    <div style={{display:"grid", gridTemplateColumns: "1fr 1fr", gap:"200px", margin:'0px 100px'}}>
+    <div style={{display:"grid", gridTemplateColumns: "1fr 1fr", gap:"20px", margin:'0px 100px'}}>
         {services.map((service, index) => {
             if (index === 0 || (index + 1) % 3 === 1) {
              return <GreyCardComponents key={index} title={service}/>   
