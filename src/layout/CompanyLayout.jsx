@@ -11,7 +11,7 @@ function CompanyLayout() {
     ];
         
     return (
-        <div style={{display: 'flex', flexDirection:'row', justifyContent: 'space-between', alignItems:'center', gap: '50px', margin:'0px 100px'}}>
+        <div style={{display: 'flex', flexDirection:'row', justifyContent: 'space-between', alignItems:'center', gap: '50px', margin:'80px 0px 100px 100px'}}>
         {company.map((item, index) => (
             <CompanyImagesComponent
                 key = {index}

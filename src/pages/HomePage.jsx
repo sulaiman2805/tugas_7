@@ -2,6 +2,7 @@ import TitleSectionComponent from "../components/TitleSectionComponent";
 import CompanyLayout from "../layout/CompanyLayout";
 import JumbotronLayout from "../layout/JumbotronLayout";
 import NavbarLayout from "../layout/NavbarLayout";
+import ServiceLayout from "../layout/ServiceLayout";
 
 function HomePage() {
     return (
@@ -10,6 +11,7 @@ function HomePage() {
         <JumbotronLayout/>
         <CompanyLayout/>
         <TitleSectionComponent title ="Services" description = "We are leading company in our industry"/>
+        <ServiceLayout/>
         </>
     );
 }
